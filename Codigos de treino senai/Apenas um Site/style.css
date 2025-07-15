@@ -1,0 +1,20 @@
+.botao-azul-claro {
+    background-color: #add8e6; /* azul claro */
+    color: #003366; /* azul escuro para contraste */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .botao-azul-claro:hover {
+    background-color: #87cefa; /* azul claro mais vibrante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .botao-azul-claro:active {
+    background-color: #76bfe7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
